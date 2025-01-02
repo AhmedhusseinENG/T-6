@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <link rel="icon" type="image/svg+xml" href="./rounded.jpg" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ahmed</title>
+  </head>
+  <body>
+    <div class="page">
+
+      <div class="header" id="header">
+        <div class="non-container" id="parent-nav-links">
+          <ul class="main-nav" id="new-nav">
+            <li>
+              <a
+                class="link-1"
+                onclick="active(0)"
+                onblur="notActive(0)"
+                href="#mainly"
+                >الرئيسية</a
+              >
+            </li>
+            <li class="p-link-2" >
+              <a
+                class="link-2"
+                onclick="active(1)"
+                onblur="notActive(1)"
+                href="#menu-1"
+                >قائمة 1</a
+              >
+  
+              <ul class="dropdown">
+                <li class="item">item-1</li>
+                <li class="item">item-2</li>
+                <li class="item">item-3</li>
+              </ul>
+            </li>
+  
+            <li class="p-link-3"   
+                >
+              <a
+                class="link-3"
+                   onclick="active(2)"
+                onblur="notActive(2)"
+                href="#menu-2"
+                >قائمة 2</a
+              >
+  
+              <ul class="dropdown">
+                <li class="item">item-1</li>
+                <li class="item">item-2</li>
+                <li class="item">item-3</li>
+              </ul>
+            </li>
+  
+            <li class="p-link-4" >
+              <a
+                class="link-4"
+                onclick="active(3)"
+                onblur="notActive(3)"
+                href="#menu-3"
+                >قائمة 3</a
+              >
+  
+              <ul class="dropdown">
+                <li class="item">item-1</li>
+                <li class="item">item-2</li>
+                <li class="item">item-3</li>
+              </ul>
+            </li>
+            <li>
+              <a
+                class="link-5"
+                onclick="active(4)"
+                onblur="notActive(4)"
+                href="#call-us"
+                >اتصل بنا
+              </a>
+            </li>
+          </ul>
+          <div class="logo-box" id="logo-box">
+            <li class="logo" id="logo-name">أحمد</li>
+            <img
+              class="logo-image"
+              id="logo-image"
+              src="./avatar.png"
+              alt="logo-image"
+            />
+  
+            <button class="btn" id="nav-btn">تسجيل الدخول</button>
+          </div>
+        </div>
+      </div>
+      <!-- sliding auto -->
+      <!-- data-bs-ride="carousel" -->
+      <!-- data-bs-pause ="false"  -->
+      <!-- End sliding auto -->
+      <div class="slider-container" >
+        <div id="carouselExampleIndicators" class="carousel slide"  data-bs-ride="carousel"  tabindex="1"   >
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner" >
+            <div  class="carousel-item active"  >
+              <!-- <img src="./imgs/course-01.jpg" class="d-block " alt="course-image"> -->
+               <div class="box" >
+                 <div class="content-box">
+                   <h2>نرحب بكم في نظام/ منصه تدريب الهيئة
+                  </h2>
+                   <p>المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤ.</p>
+                   <div class="btns">
+                    <button type="button" class="btn btn-primary" id="slider-btn-1">تسجيل الدخول</button>
+                    <button type="button" class="btn btn-primary">اتصل بنا</button>
+                   </div>
+                 </div>
+              <img src="./imgs/course-01.jpg" class="d-block " alt="course-image">
+               </div>
+
+            </div>
+            <div class="carousel-item">
+              <!-- <img src="./imgs/course-02.jpg" class="d-block " alt="course-image"> -->
+              <div class="box">
+                <div class="content-box">
+                  <h2>نرحب بكم في نظام/ منصه تدريب الهيئة
+                 </h2>
+                  <p>المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤ.</p>
+                  <div class="btns">
+                    <button type="button" class="btn btn-primary" id="slider-btn-2">تسجيل الدخول</button>
+                    <button type="button" class="btn btn-primary">اتصل بنا</button>
+                  </div>
+                </div>
+                  <img src="./imgs/course-02.jpg" class="d-block " alt="course-image">
+                 </div>
+            </div>
+            <div class="carousel-item">
+              <!-- <img src="./imgs/course-05.jpg" class="d-block " alt="course-image"> -->
+              <div class="box">
+                <div class="content-box">
+                  <h2>نرحب بكم في نظام/ منصه تدريب الهيئة
+                 </h2>
+                  <p>المغلوطة حول استنكار  النشوة وتمجيد الألم نشأت بالفعل، وسأعرض لك التفاصيل لتكتشف حقيقة وأساس تلك السعادة البشرية، فلا أحد يرفض أو يكره أو يتجنب الشعور بالسعادة، ولكن بفضل هؤ.</p>
+                  <div class="btns">
+                    <button type="button" class="btn btn-primary" id="slider-btn-3">تسجيل الدخول</button>
+                    <button type="button" class="btn btn-primary">اتصل بنا</button>
+                  </div>
+                </div>
+                    <img src="./imgs/course-05.jpg" class="d-block " alt="course-image">
+                 </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="content">
+        <div class="container">
+          <div class="center-intro">
+          <img  class="actual-logo" src="./logo.png" />
+          </div>
+        </div>
+      </div>
+      <div class="footer" dir="ltr" id="call-us">
+        <div class="container">
+          <div class="box">
+            <h3>تابعنا</h3>
+            <ul class="social">
+              <li>
+                <a href="#" class="facebook">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="twitter">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="youtube">
+                  <i class="fab fa-youtube"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="box">
+            <ul class="links">
+              <li><a href="#">Important Link 1</a></li>
+              <li><a href="#">Important Link 2</a></li>
+              <li><a href="#">Important Link 3</a></li>
+              <li><a href="#">Important Link 4</a></li>
+            </ul>
+          </div>
+          <div class="box">
+            <div class="line">
+              <i class="fas fa-map-marker-alt fa-fw"></i>
+              <div class="info">
+                Egypt, Giza, Inside The Sphinx, Room Number 220
+              </div>
+            </div>
+            <div class="line">
+              <i class="far fa-clock fa-fw"></i>
+              <div class="info">Business Hours: From 10:00 To 18:00</div>
+            </div>
+            <div class="line">
+              <i class="fas fa-phone-volume fa-fw"></i>
+              <div class="info">
+                <span>+20123456789</span>
+                <span>+20198765432</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        جميع الحقوق محفوظة لـ <span> &nbsp; &nbsp; </span> أحمد حسين
+      </div>
+      <div class="login-popup" id="loginPopup">
+        <div class="login-container">
+          <div class="login-left">
+          <img src="./logo.png" />
+          </div>
+          <div class="login-right">
+            <div class="close-btn" onclick="closeLoginPopup()">&times;</div>
+            <div class="login-content">
+              <form
+              class="form"
+                dir="ltr"
+                id="loginForm"
+                onsubmit="return validateForm(event)"
+              >
+
+               <div class="form-image">
+               </div>
+                            <div class="welcome">
+                <h2>مرحبًا</h2>
+                <p>سجل الدخول بالبريد الإلكتروني</p>
+
+              </div>
+
+                <div    class="center-feilds">
+                  <div   class="input-group">
+                    <input     class=" " id="email" type="text" required />
+                    <label class=" " id="email-lable">اسم المستخدم</label>
+                  </div>
+                  <div class="input-group">
+                    <input class=" " id="password" type="password" required />
+                    <label class=" " id="password-lable">كلمة المرور</label>
+                  </div>
+                  <a href="#" class="forgot-pass">هل نسيت كلمة المرور ؟</a>
+  
+                  <button type="submit" class="login-btn">دخول</button>
+                </div>
+
+                <div class="divider">OR</div>
+
+                <div class="social-login">
+                  <button type="button" class="google-btn">
+                    <img src="./Google__G__Logo.png" alt="Google" />
+                  </button>
+                  <button type="button" class="facebook-btn">
+                    <img src="./facebook_logo.png" alt="Facebook" />
+                  </button>
+                  <button type="button" class="apple-btn">
+                    <img src="Apple_logo.png" alt="Apple" />
+                  </button>
+                </div>
+
+                <p class="register-text">
+                  ليس لديك حساب ؟ <a href="#"> انشئ واحداً </a>
+                </p>
+
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js.js"></script>
+    <script src="./bootstrap.bundle.min.js"></script>
+  </body>
+</html>
